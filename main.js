@@ -1,8 +1,10 @@
 console.log("Hello World");
+document.write("Hello World");
 
 var name;
 name = "Ahmet";
 console.log(name);
+document.write("Hello World");
 
 var name = "ahmet";
 var Name = "mehmet";
@@ -55,18 +57,24 @@ console.log(5 > 3);
 
 var x = 5;
 console.log(typeof x);
+document.write("x:5 - typeof: "typeof x);
 var x = "5";
 console.log(typeof x);
+document.write("x:'5' - typeof: "typeof x);
 
 var x = [1, 2, "a"];
 console.log(typeof x);
+document.write("x = [1, 2, 'a'] - typeof: "typeof x);
 var x = {};
 console.log(typeof x);
+document.write("x = {} - typeof: "typeof x);
 var personel = {adi : "hasan", soyad : "yıldız", yas: 43};
-console.log(typeof x);
+console.log(typeof personel);
+document.write("personel = {adi : 'hasan', soyad : 'yıldız', yas: 43} typeof: "typeof personel);
 
 var x = [55, "hasan", {},23, [1,2,33]];
 console.log(x[4]);
+document.write("x = [55, 'hasan', {},23, [1,2,33]] - x[4]: "x[4]);
 console.log(x.length);
 console.log(x [x.length - 1] );
 
